@@ -22,6 +22,7 @@ body {
 
 /* / COMMON */
 
+/* HEADER */
 .header{
     width: 100%;
 }  
@@ -54,6 +55,7 @@ body {
     display: inline-block;
     list-style: none;
     vertical-align: middle;
+    line-height: 80px;
 }
 
 .menu a {
@@ -62,6 +64,12 @@ body {
     font-weight: 700;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 28px;
+
+}
+
+.menu a:hover {
+    border-bottom: 2px solid black;
 }
 
 .btn {
@@ -77,7 +85,53 @@ body {
     cursor: pointer;
     background-color: #468dff;
 }
+/* / HEADER */
 
+.slider {
+    background-color:#b4d0e7;
+    height: 750px;
+}
+
+.slider-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.slider-col {
+    float: left;
+    width: 40%;
+    padding-right: 75px;
+}
+
+.slider-wrap img {
+    float: left;
+    max-width: 60%;
+    height: 450px;
+}
+
+.slider-wrap h1 {
+    font-size: 85px;
+    margin-bottom: 50px;
+}
+
+.slider-col p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.slider-col .btn {
+    margin-left: 0;
+}
+
+.slider-col p:last-of-type {
+    font-size:14px;
+    margin-top: 15px;
+}
+
+.slider-col .icon {
+    font-size: 40px;
+}
 
 /* DEBUG */
 
