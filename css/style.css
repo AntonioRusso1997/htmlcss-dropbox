@@ -64,6 +64,20 @@ body {
     padding-right: 15px;
 }
 
+.btn {
+    display: inline;
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #468dff;
+}
+
 
 /* DEBUG */
 
