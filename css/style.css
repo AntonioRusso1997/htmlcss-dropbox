@@ -16,7 +16,54 @@ body {
     clear: both;
 }
 
+.white {
+    background-color: white;
+}
+
 /* / COMMON */
+
+.header{
+    width: 100%;
+}  
+
+.menu {
+    width: 100%;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu-left {
+    float: left;
+    vertical-align: middle;
+    line-height: 80px;
+}
+
+.menu-right {
+    float: right;
+    line-height: 80px;
+}
+
+.logo {
+    display: inline;
+    vertical-align: middle;
+    padding-right: 20px;
+    
+}
+.menu nav {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 /* DEBUG */
 
