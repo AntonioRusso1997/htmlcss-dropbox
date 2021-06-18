@@ -48,8 +48,10 @@ body {
 .logo {
     display: inline;
     vertical-align: middle;
-    padding-right: 20px;
-    
+    padding-right: 20px;    
+}
+.logo:hover{
+    cursor: pointer;
 }
 .menu nav {
     display: inline-block;
@@ -87,6 +89,7 @@ body {
 }
 /* / HEADER */
 
+/* SLIDER */
 .slider {
     background-color:#b4d0e7;
     height: 750px;
@@ -96,6 +99,7 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-top: 100px;
+    max-height: 750px;
 }
 
 .slider-col {
@@ -132,7 +136,97 @@ body {
 .slider-col .icon {
     font-size: 40px;
 }
+/* / SLIDER */
+
+/* MAIN */
+
+/* SEZIONE 1 */
+.section {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.section h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+input[type=radio] {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background-color: #0061ff;    
+}
+
+.select-fatt {
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.main-wrap {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.main-col-left,
+.main-col-center,
+.main-col-right {
+   float: left;
+}
+
+.main-col-left {
+    width: calc((100% / 3.3) - 6px);
+    border: 1px solid black;
+    height: 1000px;
+    margin-right: 30px;
+}
+
+.main-col-center {
+    width: calc((100% / 3.3) - 6px);
+    border: 1px solid black;
+    height: 1000px;
+    margin: 0 30px;
+}
+
+.main-col-right {
+    /* position: absolute; */
+    /* right: 0; */
+    width: calc((100% / 3.3) - 6px);
+    border: 1px solid black;
+    height: 1000px;
+    margin-left: 30px;
+}
+
+.category {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.description {
+    padding: 30px;
+}
+
+.description h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* / SEZIONE 1 */
+
+/* /MAIN */
+
 
 /* DEBUG */
+.debug .main-wrap {
+    background-color: aqua;
+}
 
+.category {
+    background-color: yellow;
+}
 /* / DEBUG */
