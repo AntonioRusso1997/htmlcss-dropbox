@@ -153,7 +153,7 @@ body {
     margin-top: 200px;
 }
 
-.section h2 {
+h2 {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 50px;
@@ -368,6 +368,50 @@ h4 {
 }
 
 /* /SEZIONE 3 */
+
+/* SEZIONE 4 */
+.section-4 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.row {
+    margin-bottom: 150px;
+}
+
+.op-col-left,
+.op-col-center,
+.op-col-right {
+    float: left;
+    width: calc(100% / 3);
+}
+
+.op-col-left {
+    padding-right: 30px;
+}
+
+.op-col-center {
+    padding: 0 15px;
+}
+
+.op-col-right {
+    padding-left: 30px;
+}
+
+.section-4 img {
+    max-width: 100%;    
+}
+
+.row .col-desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.op-col-left span {
+    text-decoration: underline;
+}
+/* / SEZIONE 4 */
 
 /* /MAIN */
 
