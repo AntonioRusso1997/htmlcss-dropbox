@@ -78,7 +78,7 @@ body {
     display: inline;
     background-color: #0061ff;
     color: white;
-    padding: 5px 15px;
+    padding: 5px 20px;
     font-size: 15px;
     margin-left: 20px;
 }
@@ -126,6 +126,7 @@ body {
 
 .slider-col .btn {
     margin-left: 0;
+    padding: 10px 25px;
 }
 
 .slider-col p:last-of-type {
@@ -177,14 +178,14 @@ input[type=radio] {
 
 .main-col-left {
     width: calc((100% / 3) - (120px / 3));
-    border: 1px solid black;
+    border: 1px solid lightgray;
     height: 1000px;
     margin-right: 30px;
 }
 
 .main-col-center {
     width: calc((100% / 3) - (120px / 3));
-    border: 1px solid black;
+    border: 1px solid lightgray;
     height: 1000px;
     margin: 0 30px;
 }
@@ -193,7 +194,7 @@ input[type=radio] {
     /* position: absolute; */
     /* right: 0; */
     width: calc((100% / 3) - (120px / 3));
-    border: 1px solid black;
+    border: 1px solid lightgray;
     height: 1000px;
     margin-left: 30px;
 }
@@ -203,7 +204,7 @@ input[type=radio] {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgray;
 }
 
 .description {
@@ -212,9 +213,79 @@ input[type=radio] {
 
 .description h3 {
     font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.month {
+    color: #687885;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.col-desc {
+    font-size: 14px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
+.description .btn {
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.col-desc a {
+    text-decoration: none;
+    color: #146dff;
+}
+
+.col-desc a:hover {
+    text-decoration: underline;
+}
+
+.description hr {
+    width: 50px;
+    margin: 40px 0;
+}
+
+.description ul {
+    list-style: none;
+}
+
+.description ul li {
+    margin-bottom: 30px;
+}
+
+.description ul li:first-child {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+}
+.li-text {
+    display: inline-block;
+    width: calc(100% - 20px);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#li-check {
+    display: inline-block;
+    font-size: 14px;
+    width: 20px;
+    vertical-align: top;
+    color: #0161ff;
+}
 
 /* / SEZIONE 1 */
 
@@ -226,7 +297,7 @@ input[type=radio] {
     background-color: aqua;
 }
 
-.category {
+.debug .category {
     background-color: yellow;
 }
 /* / DEBUG */
