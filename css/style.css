@@ -328,6 +328,47 @@ h4 {
 }
 
 /* / SEZIONE 2 */
+
+/* SEZIONE 3 */
+
+.section-3 {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 600px;
+}
+
+.section-3 img {
+    float: left;
+    width: calc(100% / 2);
+}
+
+.partner {
+    float: left;
+    width: calc(100% / 2);
+    padding: 50px;
+}
+
+.partner .col-desc {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 40px 0;
+}
+
+.partner .btn {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.partner .btn:hover {
+    background-color: lightgray;
+}
+
+/* /SEZIONE 3 */
+
 /* /MAIN */
 
 
@@ -338,5 +379,9 @@ h4 {
 
 .debug .category {
     background-color: yellow;
+}
+
+.debug .section-3 {
+    background-color: lightskyblue;
 }
 /* / DEBUG */
