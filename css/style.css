@@ -355,15 +355,15 @@ h4 {
     margin: 40px 0;
 }
 
-.partner .btn {
-    background-color: transparent;
+.btn-white {
+    background-color: white;
     border: 1px solid black;
     color: black;
     padding: 10px 20px;
     font-weight: 600;
 }
 
-.partner .btn:hover {
+.btn-white:hover {
     background-color: lightgray;
 }
 
@@ -514,6 +514,54 @@ h4 {
     background-color: #ffd830;
 }
 
+/* / SEZIONE 5 */
+
+/* SEZIONE 6 */
+.section-6 {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #b4d0e7;
+    margin-bottom: 150px;
+}
+
+.trial-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+.free-trial,
+.free-trial-btn {
+    position: relative;
+    float: left;
+    width: calc(100% / 2);
+    height: 400px; 
+}
+
+.free-trial h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 50px;
+    color: #61082b;
+}
+
+.free-trial-btn .btn-white {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    padding: 10px 80px;
+    border: none;
+}
+
+/* / SEZIONE 6 */
+
+/* SEZIONE 7 */
+
+.section-7 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 
 
@@ -543,6 +591,21 @@ h4 {
 .debug .brand-img {
     border: 1px solid red;
 }
+
+.debug .free-trial {
+    background-color: violet;
+    border: 1px solid black;
+}
+
+.debug .free-trial-btn {
+    background-color: violet;
+    border: 1px solid black;
+}
+
+.debug .section-7 {
+    background-color: burlywood;
+}
+
 
 
 /* / DEBUG */
