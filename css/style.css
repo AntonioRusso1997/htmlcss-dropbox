@@ -20,6 +20,11 @@ body {
     background-color: white;
 }
 
+hr {
+    width: 50px;
+    margin: 40px 0;
+}
+
 /* / COMMON */
 
 /* HEADER */
@@ -257,11 +262,6 @@ h3 {
 
 .col-desc a:hover {
     text-decoration: underline;
-}
-
-hr {
-    width: 50px;
-    margin: 40px 0;
 }
 
 .description ul {
@@ -557,18 +557,126 @@ h4 {
 
 /* SEZIONE 7 */
 
-.section-7 {
+.section-faq {
     width: 60%;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.faq-wrap {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid lightgray;
+}
+
+.faq,
+.faq-wrap i {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.faq-wrap i {
+    right: 30px;
+}
+
+.faq-wrap:first-of-type {
+    border-top: 1px solid lightgray;
+}
+/* /MAIN */
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.footer-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 5);
+    padding: 0 30px;
+
+}
+
+.col ul {
+    list-style: none;
+}
+.col li {
+    margin: 10px 0;
+}
+.col li:first-of-type {
+    font-size: 22px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.col li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.col li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 80%;
     margin: 0 auto;
 }
 
+footer hr {
+    width: 10%;
+}
+
+.language {
+    margin-top: 50px;
+}
+.language i {
+    display: inline-block;
+    color: #999999;
+    font-size: 18px;
+}
+
+.lang-ita {
+    display: inline-block;
+    color: gray;
+    font-size: 14px;
+}
+
+.lang-ita i {
+    font-size: 10px;
+    color: gray;
+}
+
+.lang-ita:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
 
 
-
-/* /MAIN */
-
+/* / FOOTER */
 
 /* DEBUG */
+
 .debug .main-wrap {
     background-color: aqua;
 }
@@ -605,7 +713,5 @@ h4 {
 .debug .section-7 {
     background-color: burlywood;
 }
-
-
 
 /* / DEBUG */
