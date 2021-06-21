@@ -141,26 +141,25 @@ hr {
 
 .slider {
     background-color:#b4d0e7;
-    height: 750px;
 }
 
 .slider-wrap {
     width: 80%;
     margin: 0 auto;
     padding-top: 100px;
-    max-height: 750px;
+    bottom: -100px;
+    position: relative;
 }
 
 .slider-col {
     float: left;
-    width: 40%;
-    padding-right: 75px;
+    width: 35%;
+    padding-right: 70px;
 }
 
 .slider-wrap img {
     float: left;
-    max-width: 100%;
-    height: 450px;
+    max-width: 65%;
 }
 
 .slider-wrap h1 {
@@ -201,7 +200,7 @@ hr {
 .section {
     width: 60%;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 h2 {
@@ -247,8 +246,6 @@ input[type=radio] {
 }
 
 .main-col-right {
-    /* position: absolute; */
-    /* right: 0; */
     width: calc((100% / 3) - (120px / 3));
     border: 1px solid lightgray;
     min-height: 1100px;
